@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571306004243.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1314988744",
+    "id" : "726C481F",
+    "lastKnownWriteTime" : 1570737134,
+    "last_content_update" : 1570737134,
+    "path" : "~/Documents/Work/732A94/Lab06R/Lab06R/tests/testthat/test_greedy_knapsack.R",
+    "project_path" : "Lab06R/tests/testthat/test_greedy_knapsack.R",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

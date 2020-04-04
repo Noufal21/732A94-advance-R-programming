@@ -1,0 +1,27 @@
+Package: Lab06R
+Version: 0.0.1
+Date: 2019-09-21
+Title: Lab 06
+Authors@R: c(
+  person(given="Muhammad", family="Noufal", email="muhno651@student.liu.se", role=c("aut", "cre")),
+  person(given="Ahmed", family="Ali",  email="ahmal787@student.liu.se", role="aut"))
+Maintainer: Muhammad Noufal <muhno651@student.liu.se>
+Depends: R (>= 3.1.0)
+Imports:
+    methods,parallel,utils,lineprof
+Suggests: 
+    roxygen2,
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+Description: The main purpose of this package is to learn how to solve Knapsack probelem using different algorithim technique.
+             and also try to compute brute force using parallel.
+License: GPL (>= 2)
+URL: https://github.com/Noufal21/lab06R
+BugReports: https://github.com/Noufal21/lab06R/issues
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+
+

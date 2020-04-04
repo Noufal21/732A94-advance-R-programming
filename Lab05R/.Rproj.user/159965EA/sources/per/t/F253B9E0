@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570384665482.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3149532607",
+    "id" : "F253B9E0",
+    "lastKnownWriteTime" : 1570387124,
+    "last_content_update" : 1570387124127,
+    "path" : "~/Documents/Work/732A94/Lab05R/Lab05R/R/thenMapAPI.R",
+    "project_path" : "Lab05R/R/thenMapAPI.R",
+    "properties" : {
+        "cursorPosition" : "72,39",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570386454990.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2301668372",
+    "id" : "AD1996F4",
+    "lastKnownWriteTime" : 1570386275,
+    "last_content_update" : 1570386275,
+    "path" : "~/Documents/Work/732A94/Lab05R/Lab05R/tests/testthat.R",
+    "project_path" : "Lab05R/tests/testthat.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

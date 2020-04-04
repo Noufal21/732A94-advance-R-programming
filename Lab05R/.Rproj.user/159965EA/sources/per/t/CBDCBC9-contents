@@ -1,0 +1,6 @@
+language: r
+cache: packages
+install:
+  - Rscript -e 'install.packages(c("devtools","roxygen2","testthat","leaflet","knitr","rmarkdown","httr","shiny"));devtools::install_deps("Lab05R")'
+script:
+  - Rscript -e 'devtools::check("Lab05R")'

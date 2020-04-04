@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569749652879.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1298441748",
+    "id" : "AEAE2277",
+    "lastKnownWriteTime" : 1569846845,
+    "last_content_update" : 1569846845,
+    "path" : "~/Documents/Work/732A94/Lab04R/Lab04R/NAMESPACE",
+    "project_path" : "Lab04R/NAMESPACE",
+    "properties" : {
+        "cursorPosition" : "3,10",
+        "scrollLine" : "0"
+    },
+    "read_only" : true,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

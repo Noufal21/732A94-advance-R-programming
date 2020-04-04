@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569845443127.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3680690647",
+    "id" : "FB63302B",
+    "lastKnownWriteTime" : 1569834069,
+    "last_content_update" : 1569834069,
+    "path" : "~/Documents/Work/732A94/Lab04R/Lab04R/vignettes/.gitignore",
+    "project_path" : "Lab04R/vignettes/.gitignore",
+    "properties" : {
+        "cursorPosition" : "2,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "gitignore"
+}

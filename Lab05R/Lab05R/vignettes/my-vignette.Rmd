@@ -1,0 +1,41 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Lab05R)
+```
+
+# Get World historical data 
+```{r}
+  object = thenmapsApi$new()
+  geoJson_world = object$worldmap(1947) 
+  
+ leaflet(options = leafletOptions(minZoom = 2, maxZoom = 18))  %>%
+            addProviderTiles(providers$BasemapAT) %>% addProviderTiles(providers$CartoDB)  %>%
+            addProviderTiles(providers$Hydda.Base)%>%
+            addGeoJSON(geoJson_world, weight = 1, color = "#444444",fill = FALSE)
+```
+
+# Get historical data by source
+```{r}
+  object = thenmapsApi$new()
+  geoJson_swed = object$multiData(1947,'se-4') 
+  
+     
+        leaflet(options = leafletOptions(minZoom = 2, maxZoom = 18)) %>% addTiles() %>% setView(lat=object$center_cor[['se-4']][1],lng=object$center_cor[['se-4']][2], zoom = object$center_cor[['se-4']][3]) %>%
+            addProviderTiles(providers$BasemapAT) %>% addProviderTiles(providers$CartoDB) %>% addProviderTiles(providers$Hydda.Base)%>% 
+            addGeoJSON(geoJson_swed, weight = 1, color = "#444444",fill = FALSE)
+```

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571305959170.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3454769400",
+    "id" : "6CD1A848",
+    "lastKnownWriteTime" : 1570737062,
+    "last_content_update" : 1570737062,
+    "path" : "~/Documents/Work/732A94/Lab06R/Lab06R/R/Knapsack.R",
+    "project_path" : "Lab06R/R/Knapsack.R",
+    "properties" : {
+        "cursorPosition" : "28,40",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

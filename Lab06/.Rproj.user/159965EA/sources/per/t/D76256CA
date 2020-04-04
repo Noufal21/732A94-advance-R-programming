@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571306366866.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3801810233",
+    "id" : "D76256CA",
+    "lastKnownWriteTime" : 1570737754,
+    "last_content_update" : 1570737754,
+    "path" : "~/Documents/Work/732A94/Lab06R/Lab06R/tests/testthat/test_dynamic_knapsack.R",
+    "project_path" : "Lab06R/tests/testthat/test_dynamic_knapsack.R",
+    "properties" : {
+        "cursorPosition" : "3,0",
+        "scrollLine" : "0",
+        "source_window_id" : "",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+Package: Lab05R
+Version: 0.0.1
+Date: 2019-09-21
+Title: Lab 4
+Authors@R: c(
+  person(given="Muhammad", family="Noufal", email="muhno651@student.liu.se", role=c("aut", "cre")),
+  person(given="Ahmed", family="Ali",  email="ahmal787@student.liu.se", role="aut"))
+Maintainer: Muhammad Noufal <muhno651@student.liu.se>
+Depends: R (>= 3.1.0),httr,leaflet
+Imports:
+    methods
+Suggests: 
+    roxygen2,
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+Description: The main purpose of this package is to learn how to create a shinny app and how to get data from API. 
+            This package contains two task. One is get data from  and other is QR decomposition.
+License: GPL (>= 2)
+URL: https://github.com/Noufal21/temp01
+BugReports: https://github.com/Noufal21/temp01/issues
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+

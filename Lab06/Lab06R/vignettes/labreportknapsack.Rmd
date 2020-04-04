@@ -1,0 +1,97 @@
+---
+title: "Lab06R"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{myvignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Lab06R)
+library(lineprof)
+library(parallel)
+```
+
+# Outputs
+
+## Brute force
+```{r}
+Lab06R::brute_force_knapsack(x = Lab06R::knapsack_objects[1:12,], W = 3500)
+```
+## Brute force (parallel)
+```{r}
+Lab06R::brute_force_knapsack(x = Lab06R::knapsack_objects[1:12,], W = 3500,TRUE)
+```
+
+##  Dynamic Programming
+```{r}
+Lab06R::knapsack_dynamic(x = Lab06R::knapsack_objects, W = 3500)
+```
+## Greedy Algorithm
+```{r}
+Lab06R::greedy_knapsack(x = Lab06R::knapsack_objects, W = 3500)
+```
+
+# Profiling on each algorithm 
+## Brute force
+```{r}
+head(lineprof(Lab06R::brute_force_knapsack(x = Lab06R::knapsack_objects[1:12,], W = 3500)))
+```
+
+
+##  Dynamic Programming
+```{r}
+head(lineprof(Lab06R::knapsack_dynamic(x = Lab06R::knapsack_objects, W = 3500)))
+```
+## Greedy Algorithm when n = 1000000
+```{r Greedy Question }
+set.seed(42,sample.kind = "Rounding")
+n <- 1000000
+knapsack_object <- data.frame(
+  w=sample(1:4000, size = n, replace = TRUE),
+  v=runif(n = n, 0, 10000)
+)
+start_time = Sys.time()
+result = greedy_knapsack(x = knapsack_object, W = 3500)
+end_time = Sys.time()
+
+end_time - start_time
+```
+
+## Dynamic programming when n = 500
+```{r dynamic Question }
+set.seed(42,sample.kind = "Rounding")
+n <- 500
+knapsack_object <- data.frame(
+  w=sample(1:4000, size = n, replace = TRUE),
+  v=runif(n = n, 0, 10000)
+)
+start_time = Sys.time()
+result = knapsack_dynamic(x = knapsack_object, W = 3500)
+end_time = Sys.time()
+
+end_time - start_time
+```
+
+## Brute Force when n = 16
+```{r brute force Question }
+set.seed(42,sample.kind = "Rounding")
+n <- 16
+knapsack_object <- data.frame(
+  w=sample(1:4000, size = n, replace = TRUE),
+  v=runif(n = n, 0, 10000)
+)
+start_time = Sys.time()
+result = brute_force_knapsack(x = knapsack_object, W = 3500)
+end_time = Sys.time()
+
+end_time - start_time
+```

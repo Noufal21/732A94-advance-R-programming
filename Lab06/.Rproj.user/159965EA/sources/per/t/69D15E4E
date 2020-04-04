@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570881937032.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2530798514",
+    "id" : "69D15E4E",
+    "lastKnownWriteTime" : 1570881943,
+    "last_content_update" : 1570881943304,
+    "path" : "~/Documents/Work/732A94/Lab06R/Lab06R/.gitignore",
+    "project_path" : "Lab06R/.gitignore",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "gitignore"
+}

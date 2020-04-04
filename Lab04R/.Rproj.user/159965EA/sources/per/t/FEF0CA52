@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569834620380.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2843124780",
+    "id" : "FEF0CA52",
+    "lastKnownWriteTime" : 1569846822,
+    "last_content_update" : 1569846822597,
+    "path" : "~/Documents/Work/732A94/Lab04R/Lab04R/vignettes/myvignette.Rmd",
+    "project_path" : "Lab04R/vignettes/myvignette.Rmd",
+    "properties" : {
+        "cursorPosition" : "38,8",
+        "last_setup_crc32" : "",
+        "scrollLine" : "25"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,79 @@
+---
+title: "linreg"
+vignette: >
+  %\VignetteIndexEntry{myvignette} 
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+## Normal Linear Model
+Normal linear model with benefits
+```{r setup}
+library(Lab04R)
+library(ggplot2)
+```
+## Usage
+``` 
+linregObject = linreg$new(formula, data)
+
+```
+## Arguments
+-----------   ---------------------------------------------------------------------------------
+__formula__   an object of class `"formula":` a symbolic description of the model structure to be                  fitted. The details of model specification are given under tram and in the package                 vignette.
+
+__data__      an optional data frame, list or environment (or object coercible by `as.data.frame` to a data frame) containing the variables in the model. 
+-----------
+## Detail
+A normal linear model with simulaneous estimation of regression coefficients and scale parameter(s). This function also allows for stratum-specific intercepts and variances as well as censoring and truncation in the response.
+
+Note that the scale of the parameters is different from what is reported by `linreg`; the discrepancies are explained in the package vignette.
+
+The model is defined with a negative shift term. Large values of the linear predictor correspond to large values of the conditional expectation response.
+
+## Value
+An object of class `Linreg`, with corresponding `coef`, `coefvariance`, `qr_coef`, `estfun`, `summary`, `print`, `plot`,`residualvariance` and `df`.
+
+## Example
+
+
+### Least Square coef function
+```{r}
+linregObject = linreg$new(Petal.Length~Species, data=iris)
+linregObject$coef()
+```
+
+### QR decomposition function
+```{r}
+linregObject = linreg$new(Petal.Length~Species, data=iris)
+linregObject$qrcoef()
+```
+
+### Print function
+```{r}
+linregObject = linreg$new(Petal.Length~Species, data=iris)
+linregObject$print()
+```
+
+### Summary function
+```{r}
+linregObject = linreg$new(Petal.Length~Species, data=iris)
+linregObject$summary()
+```
+
+### lm Summary function
+```{r}
+linregObject = lm(Petal.Length~Species, data=iris)
+summary(linregObject)
+```
+
+### Plot function
+```{r}
+linregObject = linreg$new(Petal.Length~Species, data=iris)
+linregObject$plot()
+```

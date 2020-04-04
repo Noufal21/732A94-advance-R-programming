@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570881531500.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2316957060",
+    "id" : "8F500700",
+    "lastKnownWriteTime" : 1570881795,
+    "last_content_update" : 1570881795,
+    "path" : "~/Documents/Work/732A94/Lab06R/Lab06R/vignettes/labreportknapsack.R",
+    "project_path" : "Lab06R/vignettes/labreportknapsack.R",
+    "properties" : {
+        "cursorPosition" : "31,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
